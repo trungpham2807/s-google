@@ -1,0 +1,159 @@
+.searchTools {
+    margin-top: 20px;
+    width: 620px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+.searchBar{
+display: inline-block;
+border: 1px solid red;
+margin: 10px;
+}
+.searchOptions{
+    border: 1px solid red;
+}
+li{
+    display: inline;
+}
+
+.mic {
+    top: 5px;
+    width: 24px;
+    left: -70px;
+    height: 24px;
+    position: relative;
+  }
+  .search {
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    right: 650px;
+    position: relative;
+  }
+  .link{
+      color:black;
+      text-decoration: none;
+      font-size:15px;
+      /* border: 1px solid red; */
+      margin-left: 152px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+a{
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 152px;
+    /* border: 1px solid red; */
+}
+h2 a:hover {
+    text-decoration: underline;
+}
+p{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 152px;
+    /* border: 1px solid red; */
+}
+h2{
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.link:hover{
+    text-decoration: underline;
+}
+table{
+    text-align: center;
+    font-weight: bold;
+    
+    /* border: 1px solid red; */
+    /* margin-left: 350px; */
+    margin: 0 auto;
+}
+.pageNumber{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+}
+.blue{
+    color: #4285f4;
+    font-size: 40px;
+}
+.red{
+    color:  #DB4437;;
+    font-size: 40px;
+}
+.yellow{
+    color: #F4B400;
+    font-size: 40px;
+}
+.green{
+    color:#0F9D58;
+    font-size: 40px;
+}
+
+footer{
+    position: absolute;
+}
+
+footer p{
+    /* border: 1px solid red; */
+    background-color: gray;
+    margin-bottom: 0px;
+}
+footer ul{
+    /* border: 1px solid red; */
+    background-color: gray;
+    margin-left: 10px;
+}
+footer li{
+    margin-right: 0px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.RelateLeft{
+    left: 10px;
+    /* background-color: blue; */
+    height: 20%;
+    width: 20%;
+    position: relative;
+    z-index: 1;
+    /* top: 100px; */
+    margin-left: 100px;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.RelateRight{
+    right: 10px;
+    /* background-color: red; */
+    height: 20%;
+    width: 20%;
+    /* position: absolute; */
+    z-index: 1;
+    margin-left: 800px;
+    overflow-x: hidden;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+.Relate1{
+    margin-bottom: 20px;
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+  }
+.Relate2{
+    margin-bottom: 20px;
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+  }
